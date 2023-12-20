@@ -1,0 +1,980 @@
+* {
+    margin: 0 ;
+    padding: 0 ; 
+    box-sizing: border-box ;
+}
+
+body {
+    background:#EFEFF2;
+    color: #19191C;
+    font: 400 18px/28px Inter, sans-serif ;
+    position: relative;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+    color: #19191C;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29.05px;
+}
+
+.header__navbar {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.header__items {
+    display: flex;
+    gap: 48px;
+}
+
+.header__item {
+    list-style: none; 
+    text-decoration: none;
+}
+
+.header__box {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.header__link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    color:  #19191C;
+}
+
+.box-btn {
+    padding: 12px 37px;
+    background: #19191C;
+    color: #EFEFF2;
+    font-weight: 700;
+}
+
+
+/* main {
+    background: url(../img/bg1.png) 0% -3% no-repeat;
+} */
+
+.offer__course {
+    color: #19191C;
+    background: url(../img/girl.png) 130% 100% no-repeat;
+}
+
+.offer__month {
+    font-weight: 700;
+    line-height: 21.78px;
+    margin-top: 167px;
+    border-bottom: 4px solid #504DEE;
+    width: 84px;
+    font-size: 18px;
+
+}
+
+
+.offer__profession {
+    margin-top: 32px;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+
+.offer__title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70.19px;
+}
+
+.offer__description {
+    line-height: 28px;
+    width: 648px;
+    margin-top: 48px;
+    font-size: 18px;
+}
+
+
+.started__button {
+    margin-top: 50px;
+    background: #504DEE;
+    padding: 16px 37px;
+    color: #FBFBFC;
+    font-weight: 700;
+    line-height: 21.78px;
+    border: none;
+    font-size: 18px;
+    animation-name: bannerButton;
+    animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+    cursor: pointer;
+}
+
+@keyframes bannerButton {
+    from {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    to {
+        transform: scale(1.0);
+    }
+}
+
+.offer__sale {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70.19px;
+    margin-top: 110px;
+}
+
+.offer__time {
+    font-weight: 700;
+    line-height: 21.78px;
+    padding-bottom: 170px;
+}
+
+.offer__list {
+    position: relative;
+}
+
+.banner__item {
+    position: absolute;
+    bottom: 620px;
+    left: 700px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    border: solid 2px #19191C;
+    list-style: none;
+    padding: 16px 36px;
+}
+
+.invision__item {
+    left: 1230px;
+    bottom: 720px;
+}
+
+.photopie__item {
+    left: 1000px;
+    bottom: 800px;
+}
+
+.micro__item {
+    left: 770px;
+    bottom: 720px;
+}
+
+.photoshop__item {
+    bottom: 520px;
+    left: 750px;
+
+}
+
+.figma__item {
+    bottom: 380px;
+    left: 580px;
+
+}
+
+.illystrator__item  {
+    bottom: 200px;
+    left: 620px;
+}
+
+.main__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profession__course {
+    background: #FBFBFC;
+}
+
+.profession__title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70.19px;
+    margin-top: 168px;
+}
+
+.profession__description {
+    width: 588px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6D6D77;
+    margin-top: 28px;
+}
+
+.profession__counters {
+    display: flex;
+}
+
+.profession__counter-item {
+    margin-left: 100px;
+}
+
+.profession__counter-number {
+    margin-top: 168px;
+    font-weight: 700;
+    font-size: 58px;
+
+}
+
+.profession__counter-description  {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    border-bottom: solid 4px #19191C;
+    width: 254px;
+    padding-bottom: 22px;
+}
+
+.profession__counter-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6D6D77;
+    margin-top: 18px;
+}
+
+.course__cards {
+    background: #FBFBFC;  
+    padding-bottom: 171px;
+}
+
+.profession__cards {
+    display: flex;
+    gap: 20px;
+}
+
+.profession__card-item {
+    width: 467px;
+    height: 329px;
+    margin-top: 168px;
+  
+  
+}
+
+.card__color1 {
+    background: #DEEFE4;
+}
+
+.card__color2 {
+    background: #F3F3D7;
+}
+
+.card__color3 {
+    background: #EFDEEE;
+}
+
+.profession__card-title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41.15px;
+    margin-top: 68px;
+    margin-left: 48px;
+    border-bottom: solid 4px #19191C;
+    width: 371px;
+    padding-bottom: 28px;
+}
+
+.profession__card-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191C;
+    margin-left: 48px;
+    margin-top: 12px;
+}
+
+.price__course {
+    background: #FBFBFC;
+    padding-bottom: 168px;
+}
+
+.prices__title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70.19px;
+}
+
+.price__course-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.price__course-card {
+    width: 467px;
+    height: 732px;
+    background:#DEEFE4;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price__course-title {
+    margin-top: 23px;
+    margin-left: 68px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41.15px;
+}
+
+.price__course-list {
+    margin-top: 47px;
+    margin-left: 88px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.price {
+    padding-bottom: 51px;
+}
+
+.price__course-item {
+    margin-top: 22px;
+}
+
+.old__price1 {
+    /* margin-top: 164px; */
+    color: #6D6D77;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-left: 69px;
+}
+
+.old__price2 {
+    /* margin-top: 116px; */
+    color: #6D6D77;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-left: 69px;
+
+}
+
+.old__price3 {
+    /* margin-top: 119px; */
+    color: #6D6D77;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-left: 69px;
+}
+
+.main__price {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70.19px;
+    margin-top: 3px;
+    margin-left: 64px;
+}
+
+.price__course-button {
+    padding: 16px 36px;
+    background: #19191C;
+    border: none;
+    line-height: 26px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FBFBFC;
+    margin-left: 68px;
+    margin-top: 18px;
+    cursor: pointer;
+ 
+}
+
+footer {
+    background: #19191C;
+    display: flex;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 68px;
+}
+
+
+.footer__item-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__mail {
+    color: #FBFBFC;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 43px;
+}
+
+.footer__phone {
+    color: #FBFBFC;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 28px;
+}
+
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #FBFBFC;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.sitemap {
+    padding-bottom: 100px;
+    display: flex;
+}
+
+.sitemap__title {
+    color: #FBFBFC;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+
+.main__footer-item {
+    margin-top: 28px;
+}
+
+.footer__link {
+    color: #EFEFF2;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+
+.copyright {
+    display: flex;
+    align-items: center;
+    background: #19191C;
+    justify-content: center;
+    gap: 28px;
+    color: #6D6D77;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 62px;
+}
+
+.copyright__link {
+    text-decoration: none;
+    color: #6D6D77;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 1455px) {
+    .container {
+       width: auto;
+    }
+
+    .offer__course {
+        padding-left: 20px;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .header__box {
+        padding-right: 20px;
+    }
+
+    .profession__text {
+        padding-left: 20px;
+    }
+
+    .profession__counters {
+        padding-right: 20px;
+    }
+
+    .course__cards {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .price__course-cards {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .prices__title {
+        padding-left: 20px;
+    }
+
+    .footer__contacts {
+        gap: 150px;
+    }
+
+ 
+}
+
+@media screen and (max-width: 1435px) {
+    .offer__list {
+        display: none;
+    }
+
+    .profession__description {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+   
+
+    .profession__card-title {
+        width: 300px;
+    }
+
+
+    .footer__contacts {
+        gap: 100px;
+    }
+  
+}
+
+@media screen and (max-width: 1212px) {
+    .profession__counters {
+        flex-direction: column;
+    }
+
+    .main__wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profession__title {
+        margin-top: 100px;
+    }
+
+    .profession__description {
+        width: 450px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .profession__text {
+        padding-left: 0px;
+    }
+
+    .profession__counters {
+        padding-right: 0px;
+    }
+ 
+    .profession__counter-number {
+        margin-top: 100px;
+
+    }
+
+    .profession__counter-description {
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .profession__counter-text {
+        width: 254px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+
+    .profession__counter-item {
+        margin-left: 0px;
+    } 
+
+    .profession__cards {
+        flex-direction: column;
+    }
+
+    .profession__card-item {
+        margin: 0 auto;
+    }
+
+    .course__cards {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 100px;
+    }
+
+    .price__course-cards {
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 100px;
+    }
+
+    .prices__title {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .price__course-card {
+        margin: 0 auto;
+    }
+
+ 
+}
+
+
+@media screen and (max-width: 1100px) {
+    .offer__course {
+        background: url(../img/girl.png) 180% 100% no-repeat;
+    }
+
+    .footer__contacts {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+   .offer__description {
+        width: 400px;
+   }
+
+   .offer__course {
+        background: url(../img/girl.png) 200% 100% no-repeat;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    .offer__course {
+        background: url(../img/girl.png) 180% 100% no-repeat;
+        background-size: 700px;
+    }
+
+    /* .header {
+        justify-content: start;
+    } */
+
+    .header__items {
+        gap: 25px;
+    }
+
+    .header__box {
+        gap: 25px;
+     
+    }
+
+    .header__navbar {
+        gap: 25px;
+    }
+
+    .logo {
+        padding-left: 10px;
+    }
+
+    .header__box {
+        padding-right: 10px;
+    }
+ }
+
+ @media screen and (max-width: 910px) {
+    .footer__contacts {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .footer__content {
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+ 
+
+
+
+
+}
+
+
+
+ @media screen and (max-width: 800px) {
+    .offer__course {
+        background-size: 600px;
+    }
+
+    .offer__sale {
+        font-size: 40px;
+        
+    }
+
+    .offer__time {
+        text-align: justify;
+        font-size: 16px;
+    }
+ }
+
+ @media screen and (max-width: 765px) {
+    header {
+        flex-direction: column;
+    }
+
+    .header__navbar {
+        margin: 0 auto;
+    }
+
+    .header__box {
+        margin: 0 auto;
+        padding-top: 20px;
+
+    }
+  
+ }
+
+
+ @media screen and (max-width: 660px) {
+    .offer__course {
+        background-size: 500px;
+    }
+
+ }
+
+ @media screen and (max-width: 575px) {
+    .offer__course {
+        background-size: 450px;
+    }
+
+    .offer__month {
+        margin-top: 70px;
+    }
+
+ }
+    
+    
+ @media screen and (max-width: 520px) {
+    .offer__course {
+        background-size: 370px;
+     
+    }
+
+    .offer__sale {
+        font-size: 40px;
+        
+    }
+
+    .offer__time {
+        text-align: justify;
+        font-size: 16px;
+    }
+ }
+
+ @media screen and (max-width: 500px) {
+    .profession__card-item {
+        height: 300px;
+        max-width: 438px;
+    }
+
+    .price__course-card {
+        width: 400px;
+    }
+  
+  
+
+  }
+
+
+ @media screen and (max-width: 475px) {
+    .profession__description {
+        width: 350px;
+    }
+
+    .profession__card-item {
+        height: 350px;
+        max-width: 400px;
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+ @media screen and (max-width: 445px) {
+    .header__navbar {
+        flex-direction: column;
+    }
+
+  }
+
+ @media screen and (max-width: 435px) {
+   .offer__description {
+        width: 280px;
+   }
+
+   .price__course-card {
+        width: 300px;
+    } 
+
+    .price__course-list {
+        margin-left: 50px;
+        
+    }
+
+    .price__course-title {
+        margin-left: 50px;
+    }
+
+    .old__price1 , .old__price2, .old__price3, .main__price, .price__course-button{
+        margin-left: 50px;
+    }
+ }
+
+ @media screen and (max-width: 420px) {
+    .profession__card-item {
+        height: 400px;
+        max-width: 350px;
+    }
+
+    .profession__card-title {
+        width: 250px;
+
+    }
+
+
+ 
+  }
+ 
+
+ @media screen and (max-width: 382px) {
+    .offer__course {
+        background-size: 350px;
+     
+    }
+
+    .profession__card-item {
+        height: 450px;
+        max-width: 300px;
+    }
+
+    .profession__card-title {
+        width: 200px;
+
+    }
+
+ }
+
+ @media screen and (max-width: 375px) {
+    .profession__description {
+        width: 300px;
+    }
+  
+
+  }
+  
+    
+ @media screen and (max-width: 365px) {
+    .offer__course {
+        background: url(../img/girl.png) 250% 100% no-repeat;
+        background-size: 300px;
+    }
+
+    .offer__sale {
+        font-size: 40px;
+        
+    }
+
+    .offer__time {
+        text-align: justify;
+        font-size: 16px;
+    }
+ }
+
+ @media screen and (max-width: 325px) {
+
+    .profession__title {
+        font-size: 50px;
+    }
+    .profession__description {
+        width: 270px;
+    }
+
+    .profession__card-item {
+        height: 500px;
+        max-width: 260px;
+    }
+
+    .profession__card-title {
+        width: 150px;
+
+    }
+
+    .price__course-card {
+        width: 270px;
+
+    }
+  
+
+  }
+    
+ @media screen and (max-width: 315px) {
+    .offer__course {
+        background: url(../img/girl.png) 250% 100% no-repeat;
+        background-size: 270px;
+    }
+
+    .offer__sale {
+        font-size: 40px;
+        
+    }
+
+    .offer__time {
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .offer__description {
+        width: 260px;
+   }
+
+   .header__box {
+    flex-direction: column;
+   }
+
+ }
+
+
+
